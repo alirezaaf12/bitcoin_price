@@ -1,8 +1,8 @@
 import requests
 
 
-# you must connect to tor before using this script
-# if you are not in Iran, you can comment out proxy line and delete proxy arg for get method
+# you must connect to tor if your location restricted
+# you can comment out proxy line and delete proxy arg for get method
 def extract_bit_price():
     proxy = {"http" : "socks5://127.0.0.1:9050", "https" : "socks5://127.0.0.1:9050"}
 
